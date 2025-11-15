@@ -1,0 +1,6 @@
+i , ll, c, f, d = input().split()
+print(int(i))
+print(int(ll))
+print(c)
+print("{0:.3f}".format(float(f)))   
+print("{0:.9f}".format(float(d)))
