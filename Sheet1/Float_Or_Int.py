@@ -1,4 +1,4 @@
-N = input().strip()
+N = input()
 
 num = float(N)
 
