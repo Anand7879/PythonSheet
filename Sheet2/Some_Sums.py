@@ -6,9 +6,9 @@ for i in range(1,N+1):
     digit_sum = 0
     for ch in s:
         digit_sum=digit_sum+int(ch)
-
-    if(A<=digit_sum>=B):
-        Sum+=digit_sum
+     
+    if A<=digit_sum<=B:
+        Sum+=i
 
 print(Sum)
 
