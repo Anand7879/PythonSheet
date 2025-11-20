@@ -1,20 +1,11 @@
 n, m, k = map(int, input().split())
 
-count = 0
+useMouth = min(m,k,n)
 
-while k > 0:
-    if n >= 1 and m >= 1:
-        count += 1
-        n -= 1
-        m -= 1
-        k -= 1
+n-=useMouth
+m-=useMouth
+k-=useMouth
 
-    elif n >= 2:
-        count += 1
-        n -= 2
-        k -= 1
+useNoMouth = min(n//2,k)
 
-    else:
-        break
-
-print(count)
+print(useMouth+useNoMouth)
