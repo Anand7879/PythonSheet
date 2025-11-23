@@ -7,4 +7,5 @@ for i in range(K+1):
         if 0 <= k <= K:
             count += 1
 
+
 print(count)
