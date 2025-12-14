@@ -1,6 +1,5 @@
 N = int(input())
 arr = list(map(int,input().split()))
-
 arr1 = []
 count = 0
 while(True):
